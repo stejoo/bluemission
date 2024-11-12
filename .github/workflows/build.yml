@@ -22,7 +22,7 @@ jobs:
       matrix:
         recipe:
           # !! Add your recipes here 
-          - bluemission-39.yml
+          - bluemission-41.yml
           - bluemission-40.yml
     steps:
        # the build is fully handled by the reusable github action
