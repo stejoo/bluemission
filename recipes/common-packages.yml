@@ -7,6 +7,7 @@ install:
   - iotop
   - libvirt
   - p7zip
+  - pass
   - powertop
   - virt-manager
   - virt-viewer
