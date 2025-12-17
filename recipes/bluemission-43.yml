@@ -2,12 +2,10 @@
 name: bluemission
 # description will be included in the image's metadata
 description: My personal rendition of Bluefin, with Evolution added and opensc removed.
-alt-tags:
-  - gts
 
 # the base image to build on top of (FROM) and the version tag to use
 base-image: ghcr.io/ublue-os/bluefin
-image-version: 41 # latest is also supported if you want new updates ASAP
+image-version: 43 # latest is also supported if you want new updates ASAP
 
 # Bluemission common module configuration
 # List is executed in order, you can include multiple instances of the same module

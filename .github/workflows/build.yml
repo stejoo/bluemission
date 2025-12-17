@@ -22,8 +22,8 @@ jobs:
       matrix:
         recipe:
           # !! Add your recipes here
-          #- bluemission-41.yml
           - bluemission-42.yml
+          - bluemission-43.yml
     steps:
        # the build is fully handled by the reusable github action
       - name: Build Custom Image
